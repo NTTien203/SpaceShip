@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 549f9927c70c96c4e92ebed860d6bd96, type: 3}
+  m_Name: a
+  m_EditorClassIdentifier: 
+  enermies:
+  - {fileID: 4664139651678232414, guid: 07125b2f2500d3a45b8dd8dde4ef5ddf, type: 3}
+  - {fileID: 4664139651678232414, guid: 07125b2f2500d3a45b8dd8dde4ef5ddf, type: 3}
+  - {fileID: 4664139651678232414, guid: 07125b2f2500d3a45b8dd8dde4ef5ddf, type: 3}
+  pathPrefab: {fileID: 7155374170274844941, guid: 84fab81358f9b1346a25d1633902835e, type: 3}
+  moveSpeed: 3
+  timeBetweenEnermySpawns: 1
+  spawnTimeVariance: 0.4
+  minimumSpawnTime: 0.2
